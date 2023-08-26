@@ -1,7 +1,7 @@
 import json
-from game.services.game_logic.make_path_to_characteristic.path_maker import PathCharacteristicsMaker
+from game.services.game_logic.parse_any_formats_characteristic.parser_characteristic import ParserCharacteristics
 
-class ParserCharacteristicsWindows(PathCharacteristicsMaker):
+class ParserCharacteristicsWindows(ParserCharacteristics):
 
     def make_characteristic_dict_object(self,need_characteristic:str) -> dict:
         path_to_needed_characteristic = self.path_maker.make_path(need_characteristic)
