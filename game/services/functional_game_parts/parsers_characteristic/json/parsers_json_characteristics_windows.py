@@ -4,7 +4,7 @@ from game.services.functional_game_parts.path_characteristic_makers.json.json_ch
 
 
 
-class ParserJsonCharacteristic:
+class ParserJsonCharacteristicWindows:
 
     def __init__(self, start_path:pathlib.Path) -> None:
         self.parser = ParserCharacteristicsWindows(
